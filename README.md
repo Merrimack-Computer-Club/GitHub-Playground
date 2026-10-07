@@ -1,20 +1,61 @@
-# GitHub-Playground
+# GitHub Playground
 
 Welcome to the **Merrimack Computer Club**'s GitHub Playground, an open practice space for **Merrimack College** students. We're glad you're here!
 
-This is a safe place to learn Git commands and version control workflows by actually using them. You can clone, edit, commit, branch, and merge without worrying about breaking anything.
+## Purpose
+
+This is a safe place to practice real GitHub workflows by actually using them. There's no application code here, only Markdown files you can freely edit, commit, and revert. You can clone, branch, and merge without worrying about breaking anything.
 
 ## Who This Is For
 
-Everyone! You don't need to be a Computer Science major or have used a terminal before. Whether you're brand new to Git or a student with some Git experience who wants more practice, you're welcome here.
+Everyone! You don't need to be a Computer Science major or have used a terminal before.
+
+- Students who are brand new to Git or GitHub
+- Students with some Git experience who want more practice with branching and pull requests
+- Anyone who wants hands-on practice before using Git on their personal projects or class projects
 
 ## Mistakes Are Welcome
 
 Making mistakes is the whole point of a playground. If a commit goes sideways or you run into a merge conflict, that's not a problem. It's practice. Nothing here affects your personal projects or class projects, so experiment freely.
 
+## Skills You Will Practice
+
+| Skill | Exercise |
+|---|---|
+| Cloning a repository | [Exercise 01](exercises/exercise-01-clone-and-edit.md) |
+| Creating branches | [Exercise 02](exercises/exercise-02-branching.md) |
+| Staging, committing, and pushing | [Exercise 03](exercises/exercise-03-commit-and-push.md) |
+| Opening Pull Requests | [Exercise 04](exercises/exercise-04-pull-request.md) |
+| Resolving merge conflicts | [Exercise 05](exercises/exercise-05-merge-conflict.md) |
+| Updating documentation | [Exercise 06](exercises/exercise-06-documentation-update.md) |
+
+## Expected Workflow
+
+```mermaid
+flowchart LR
+  A[Clone repository] --> B[Create branch]
+  B --> C[Edit files]
+  C --> D[Stage + commit]
+  D --> E[Push branch]
+  E --> F[Open Pull Request]
+  F --> G[Review / resolve conflicts]
+  G --> H[Merge PR]
+  H --> I[Delete branch]
+```
+
 ## Getting Started
 
-You'll need a GitHub account. Either a personal account or one tied to your Merrimack student email works fine.
+You'll need a GitHub account. Either a personal account or your Merrimack student GitHub account works fine.
+
+1. Read [`PRACTICE_GUIDE.md`](PRACTICE_GUIDE.md) for an overview of the workflow.
+2. Take a look at [`CONTRIBUTING.md`](CONTRIBUTING.md) before making changes.
+3. Start with [Exercise 01](exercises/exercise-01-clone-and-edit.md) and work through the exercises at your own pace.
+
+## Practice Workspaces
+
+- [`student-profiles/`](student-profiles/README.md) — Add your own profile and meet other students
+- [`project-notes/`](project-notes/README.md) — Practice editing shared notes
+- [`sandbox/`](sandbox/README.md) — Free-form edits and experiments
 
 ## Getting Help
 
