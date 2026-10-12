@@ -1,4 +1,5 @@
 # Practice Guide
+
 This guide walks you through the full GitHub workflow you'll practice in this repository. Follow each step in order the first time, then repeat any exercise as many times as you like.
 
 ## Prerequisites
@@ -69,7 +70,7 @@ git checkout -b yourname/your-change
 
 ### 3. Make Changes
 
-Edit one of the Markdown files in `student-profiles/`, `project-notes/`, or `sandbox/`. Follow the instructions in the relevant exercise file under `exercises/`.
+Edit one of the Markdown files in `student-profiles/` or `sandbox/`, or add a link to `RESOURCES.md`. Follow the instructions in the relevant exercise file under `exercises/`.
 
 > 💡 **Why:** All edits are made on your branch, not on `main`. This keeps the main codebase stable while you work, and lets others review your changes before they are merged.
 
@@ -136,6 +137,7 @@ Work through each exercise in order:
 - Commit often and in small increments.
 - Read error messages carefully. Git's output is usually very helpful.
 - When in doubt, `git status` and `git log --oneline` are your best friends.
+
 ## Getting Help
 
 - Ask questions in our Discord server: https://discord.gg/A4DV423ryu

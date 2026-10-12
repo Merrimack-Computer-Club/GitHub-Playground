@@ -11,7 +11,7 @@ This is a free-form practice area. You can add, edit, or delete anything in this
 
 ## Practice Log
 
-Add a line below each time you use this sandbox:
+Add a row to the table below each time you use this sandbox:
 
 | Name | Date | What I practiced |
 |------|------|-----------------|

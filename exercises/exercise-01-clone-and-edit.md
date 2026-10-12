@@ -29,10 +29,10 @@ cat README.md
 
 ### 3. Open a file and edit it
 
-Open `sandbox/README.md` in your text editor or VS Code and add a line with your name and today's date:
+Open `sandbox/README.md` in your text editor or VS Code and add a row to the **Practice Log** table at the bottom with your name and today's date:
 
 ```
-- Your Name, YYYY-MM-DD, first edit!
+| Your Name | YYYY-MM-DD | First edit |
 ```
 
 ### 4. Check the status

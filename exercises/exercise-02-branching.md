@@ -33,7 +33,7 @@ The active branch is marked with `*`.
 
 ### 4. Make a small change
 
-Add a line to `student-profiles/README.md` with your name.
+Add your name to the **Profiles** list at the bottom of `student-profiles/README.md`.
 
 ### 5. Confirm the branch and change are isolated
 

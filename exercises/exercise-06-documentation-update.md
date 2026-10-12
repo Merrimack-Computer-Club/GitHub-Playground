@@ -12,10 +12,10 @@ Choose **one or more** of the following improvements and complete it using the f
 2. Include your name or handle, and optionally your major, class year, and interests.
 3. Add a link to your file in `student-profiles/README.md`.
 
-### Option B: Add a Project Note
+### Option B: Add a Useful Resource
 
-1. Add a new section or bullet point to `project-notes/README.md`.
-2. The note can be anything: a tip, a resource link, or a lesson learned.
+1. Find an article, video, or guide that helped you learn Git/GitHub or any relevant tool.
+2. Add a row for it to the table in [`RESOURCES.md`](../RESOURCES.md), with a short note on what it's good for and your name or GitHub handle.
 
 ### Option C: Improve an Exercise
 
@@ -37,7 +37,7 @@ Choose **one or more** of the following improvements and complete it using the f
 - [ ] Merge and delete branch
 - [ ] Pull latest `main` locally
 
-## Congratulations 
+## Congratulations
 
 You have completed all six exercises! You now have hands-on experience with the core Git and GitHub workflow used in professional software development.
 
