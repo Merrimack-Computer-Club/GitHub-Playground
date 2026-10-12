@@ -57,9 +57,9 @@ You'll need a GitHub account.
 
 ## Practice Workspaces
 
-- [`student-profiles/`](student-profiles/README.md) — Add your own profile and meet other students
-- [`project-notes/`](project-notes/README.md) — Practice editing shared notes
-- [`sandbox/`](sandbox/README.md) — Free-form edits and experiments
+- [`student-profiles/`](student-profiles/README.md): Add your own profile and meet other students
+- [`project-notes/`](project-notes/README.md): Practice editing shared notes
+- [`sandbox/`](sandbox/README.md): Free-form edits and experiments
 
 ## Getting Help
 

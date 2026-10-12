@@ -46,6 +46,7 @@ Examples:
 - Give your PR a clear title.
 - Mention the exercise you're practicing in the PR description.
 - Request a review from a club eBoard member.
+  - Peter Hajj's GitHub username is `phajj`.
 - Delete your branch after it's merged.
 
 ## Getting Help

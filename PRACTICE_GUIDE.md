@@ -17,7 +17,7 @@ This guide walks you through the full GitHub workflow you'll practice in this re
 >
 > **Recommended path:** Create a `Repos` folder directly under your user profile and clone there.
 
-**Windows** — recommended path: `C:\Users\your-name\Repos\`
+**Windows** (recommended path: `C:\Users\your-name\Repos\`)
 
 ```bash
 # Windows (Command Prompt or PowerShell)
@@ -30,7 +30,7 @@ git clone https://github.com/Merrimack-Computer-Club/GitHub-Playground.git
 cd GitHub-Playground
 ```
 
-**Mac/Linux** — recommended path: `~/Repos/`
+**Mac/Linux** (recommended path: `~/Repos/`)
 
 ```bash
 # Mac/Linux (Terminal)
@@ -44,13 +44,13 @@ cd GitHub-Playground
 ```
 
 > 💡 **What these commands do:**
-> - `mkdir` — Stands for **M**a**k**e **Dir**ectory (a directory is just a folder). Here it creates a `Repos` folder inside your user folder. You only need to do this once.
+> - `mkdir`: Stands for **M**a**k**e **Dir**ectory (a directory is just a folder). Here it creates a `Repos` folder inside your user folder. You only need to do this once.
 >   - `%USERNAME%` (Windows) fills in your username for you.
 >   - `~` (Mac/Linux) is short for your home folder.
 >   - `-p` (Mac/Linux) tells `mkdir` not to complain if the folder already exists.
-> - `cd` — Stands for **C**hange **D**irectory. It moves you into a folder, like double-clicking it. Here it moves you into `Repos` so the repo downloads there.
-> - `git clone <url>` — Clone means "make a copy." It downloads the whole repo from GitHub (files, history, and branches) into a new `GitHub-Playground` folder. The first time you push, Git will ask you to sign in to GitHub.
-> - `cd GitHub-Playground` — Moves you into the folder you just downloaded, so your next Git commands work on this repo.
+> - `cd`: Stands for **C**hange **D**irectory. It moves you into a folder, like double-clicking it. Here it moves you into `Repos` so the repo downloads there.
+> - `git clone <url>`: Clone means "make a copy." It downloads the whole repo from GitHub (files, history, and branches) into a new `GitHub-Playground` folder. The first time you push, Git will ask you to sign in to GitHub.
+> - `cd GitHub-Playground`: Moves you into the folder you just downloaded, so your next Git commands work on this repo.
 
 ### 2. Create a Branch
 
@@ -63,9 +63,9 @@ git checkout -b yourname/your-change
 ```
 
 > 💡 **What these commands do:**
-> - `git checkout main` — Switches your working copy to the `main` branch. This ensures you are branching off the correct base.
-> - `git pull origin main` — Fetches the latest changes from the remote (`origin`) repo and merges them into your local `main`. This keeps you in sync with any work other club members have already merged.
-> - `git checkout -b yourname/your-change` — Creates a new branch and immediately switches to it. The `-b` flag means "create". Naming the branch with your name (e.g. `peter/update-readme`) makes it easy to identify who owns it.
+> - `git checkout main`: Switches your working copy to the `main` branch. This ensures you are branching off the correct base.
+> - `git pull origin main`: Fetches the latest changes from the remote (`origin`) repo and merges them into your local `main`. This keeps you in sync with any work other club members have already merged.
+> - `git checkout -b yourname/your-change`: Creates a new branch and immediately switches to it. The `-b` flag means "create". Naming the branch with your name (e.g. `peter/update-readme`) makes it easy to identify who owns it.
 
 ### 3. Make Changes
 
@@ -81,8 +81,8 @@ git commit -m "docs: describe your change"
 ```
 
 > 💡 **What these commands do:**
-> - `git add <file>` — Stages the specified file, marking it to be included in the next commit. You are telling Git "I want to save this change." Replace `<file>` with the actual file path (e.g. `sandbox/README.md`).
-> - `git commit -m "..."` — Records a snapshot of the staged changes in your local Git history with a message describing what you did. Good commit messages make it easy for other students (and future you) to understand the history at a glance.
+> - `git add <file>`: Stages the specified file, marking it to be included in the next commit. You are telling Git "I want to save this change." Replace `<file>` with the actual file path (e.g. `sandbox/README.md`).
+> - `git commit -m "..."`: Records a snapshot of the staged changes in your local Git history with a message describing what you did. Good commit messages make it easy for other students (and future you) to understand the history at a glance.
 
 ### 5. Push Your Branch
 
@@ -100,7 +100,10 @@ Go to the repository on GitHub and open a Pull Request from your branch to `main
 
 ### 7. Review and Merge
 
-Request     an eBoard member to review your PR. Address any feedback. Once approved, merge and delete your branch.
+- Request a review from a club eBoard member.
+  - Peter Hajj's GitHub username is `phajj`.
+- Address any feedback.
+- Once approved, merge and delete your branch.
 
 > 💡 **Why:** Reviews give you a second set of eyes on your changes, and they're a friendly way to learn from each other. Deleting the branch after merging keeps the repository tidy and signals the work is complete.
 
@@ -114,8 +117,8 @@ git pull origin main
 ```
 
 > 💡 **What these commands do:**
-> - `git checkout main` — Switches back to your local `main` branch.
-> - `git pull origin main` — Downloads and merges the newly merged changes (including your PR) from the remote into your local `main`, so you are ready to branch off again for the next piece of work.
+> - `git checkout main`: Switches back to your local `main` branch.
+> - `git pull origin main`: Downloads and merges the newly merged changes (including your PR) from the remote into your local `main`, so you are ready to branch off again for the next piece of work.
 
 ## Exercises
 
@@ -131,7 +134,7 @@ Work through each exercise in order:
 ## Tips
 
 - Commit often and in small increments.
-- Read error messages carefully — Git's output is usually very helpful.
+- Read error messages carefully. Git's output is usually very helpful.
 - When in doubt, `git status` and `git log --oneline` are your best friends.
 ## Getting Help
 
