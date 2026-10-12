@@ -1,6 +1,6 @@
 # GitHub Playground
 
-Welcome to the **Merrimack Computer Club**'s GitHub Playground, an open practice space for **Merrimack College** students. We're glad you're here!
+Welcome to the **Merrimack Computer Club**'s GitHub Playground, an open practice space for **Merrimack College** students!
 
 ## Purpose
 
@@ -8,15 +8,19 @@ This is a safe place to practice real GitHub workflows by actually using them. T
 
 ## Who This Is For
 
-Everyone! You don't need to be a Computer Science major or have used a terminal before.
+Everyone! Whether you're a senior Computer Science student who uses Git all the time or you're just starting your tech journey, you're welcome here. You don't need to be a Computer Science major or have used a terminal before.
 
-- Students who are brand new to Git or GitHub
-- Students with some Git experience who want more practice with branching and pull requests
-- Anyone who wants hands-on practice before using Git on their personal projects or class projects
+- Students who are brand new to Git and/or GitHub
+- Students with some Git experience who want more practice with branching, pull requests, and other collaborative workflows
+- Anyone who wants hands-on practice using Git in the command line
 
-## Mistakes Are Welcome
+## Prerequisites
 
-Making mistakes is the whole point of a playground. If a commit goes sideways or you run into a merge conflict, that's not a problem. It's practice. Nothing here affects your personal projects or class projects, so experiment freely.
+- [Git](https://git-scm.com/downloads) installed on your machine (`git --version` to verify)
+  - **Mac:** Git comes preinstalled macOS. Run `git --version` to verify it was installed.
+  - **Windows:** Download and run the installer from [Git for Windows](https://git-scm.com/download/win).
+- A [GitHub account](https://github.com/signup), I recommend setting your username to your Merrimack email without the @merrimack.edu for convenience in Merrimack classes that use GitHub (e.g. hajjp for hajjp@merrimack.edu)
+- (recommended) An IDE (integrated development environment) such as [VS Code](https://code.visualstudio.com/).
 
 ## Skills You Will Practice
 
@@ -45,7 +49,7 @@ flowchart LR
 
 ## Getting Started
 
-You'll need a GitHub account. Either a personal account or your Merrimack student GitHub account works fine.
+You'll need a GitHub account.
 
 1. Read [`PRACTICE_GUIDE.md`](PRACTICE_GUIDE.md) for an overview of the workflow.
 2. Take a look at [`CONTRIBUTING.md`](CONTRIBUTING.md) before making changes.
@@ -59,8 +63,8 @@ You'll need a GitHub account. Either a personal account or your Merrimack studen
 
 ## Getting Help
 
-Stuck? Have a question? We're happy to help.
+Stuck? Have a question? We're happy to help! Contact us via:
 
-- **Discord:** Join our server at [discord.gg/A4DV423ryu](https://discord.gg/A4DV423ryu)
-- **Email:** Contact Peter Hajj, club president, at [hajjp@merrimack.edu](mailto:hajjp@merrimack.edu)
+- **Discord:** Join the Merrimack College Division of Computational Sciences Discord Server [here](https://discord.gg/A4DV423ryu)
+- **Email:** Contact Peter Hajj, the club president, at [hajjp@merrimack.edu](mailto:hajjp@merrimack.edu)
 - **eBoard:** Reach out to any Computer Club eBoard member
