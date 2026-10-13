@@ -53,12 +53,13 @@ You'll need a GitHub account.
 
 1. Read [`PRACTICE_GUIDE.md`](PRACTICE_GUIDE.md) for an overview of the workflow.
 2. Take a look at [`CONTRIBUTING.md`](CONTRIBUTING.md) before making changes.
-3. Start with [Exercise 01](exercises/exercise-01-clone-and-edit.md) and work through the exercises at your own pace.
+3. Get familiar with [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). 
+4. Start with [Exercise 01](exercises/exercise-01-clone-and-edit.md) and work through the exercises at your own pace.
 
 ## Practice Workspaces
 
-- [`student-profiles/`](student-profiles/README.md): Add your own profile and meet other students
-- [`RESOURCES.md`](RESOURCES.md): A shared list of helpful Git and GitHub resources you can add to
+- [`student-profiles/`](student-profiles/README.md): Add your own profile and meet other studentsCODE_OF_CONDUCT.md
+- [`RESOURCES.md`](RESOURCES.md): A shared list of helpful Git/GitHub and general CS resources you can add to
 - [`sandbox/`](sandbox/README.md): Free-form edits and experiments
 
 ## Getting Help
