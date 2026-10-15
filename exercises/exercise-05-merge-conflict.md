@@ -10,7 +10,7 @@ A merge conflict happens when two branches modify the same part of the same file
 
 ### 1. Set up the conflict
 
-1. Make sure `main` is up to date: `git pull origin main`
+1. Make sure `main` is up to date: `git checkout main`, then `git pull`
 2. Create **Branch A**: `git checkout -b yourname/conflict-a`
 3. Edit the first line of `sandbox/README.md` and commit.
 4. Push Branch A: `git push origin yourname/conflict-a`
@@ -29,12 +29,16 @@ GitHub will warn that Branch B has a conflict with `main`.
 
 ### 4. Resolve the conflict locally
 
+First get the latest `main` (which now includes Branch A), then merge it into Branch B:
+
 ```bash
+git checkout main
+git pull
 git checkout yourname/conflict-b
-git pull origin main
+git merge main
 ```
 
-Git will pause and show a conflict. Open the conflicted file. You will see markers like:
+Git will pause and report a conflict in `sandbox/README.md`. Inside the file, you will see markers like:
 
 ```
 <<<<<<< HEAD
@@ -44,7 +48,34 @@ The change that came from main (Branch A)
 >>>>>>> main
 ```
 
-Edit the file to keep the version you want (or combine both). Remove all conflict markers.
+**Reading the markers:**
+
+| Marker | Meaning |
+|---|---|
+| `<<<<<<< HEAD` | Start of **your** version: the branch you're on right now (Branch B). VS Code calls this the **Current Change**. |
+| `=======` | The divider between the two versions. |
+| `>>>>>>> main` | End of the **incoming** version: the branch you're merging in (`main`, which has Branch A's change). VS Code calls this the **Incoming Change**. |
+
+An easy way to remember it: `<<<<<<<` points back at where you are, `>>>>>>>` points at what's coming in.
+
+#### Resolve it in VS Code (recommended)
+
+Resolving conflicts is much easier in [VS Code](https://code.visualstudio.com/) than by hand, and it's what we recommend for everyone.
+
+1. Open the repo folder in VS Code and click the **Source Control** icon in the left sidebar. Conflicted files are listed under **Merge Changes**.
+2. Open `sandbox/README.md`. VS Code highlights the two versions in different colors and shows clickable options above the conflict:
+   - **Accept Current Change**: keep your Branch B version.
+   - **Accept Incoming Change**: keep the version from `main`.
+   - **Accept Both Changes**: keep both, one after the other.
+   - **Compare Changes**: view the two versions side by side.
+3. Click the option you want (you can still edit the text afterwards). VS Code removes the markers for you.
+4. Save the file.
+
+For bigger conflicts, click **Resolve in Merge Editor** in the bottom right of the file to get a side-by-side view.
+
+#### Resolve it by hand
+
+If you're not using VS Code, edit the file in any text editor to keep the version you want (or combine both). Then delete all three marker lines (`<<<<<<<`, `=======`, `>>>>>>>`).
 
 ### 5. Stage and commit the resolution
 
@@ -59,7 +90,8 @@ The PR on GitHub should now show no conflicts.
 ## What You Learned
 
 - What causes merge conflicts
-- How to read and resolve conflict markers
+- How to read conflict markers (`<<<<<<<` is your version, `>>>>>>>` is the incoming one)
+- How to resolve a conflict in VS Code or by hand
 - How to push a conflict resolution
 
 ## Next Exercise

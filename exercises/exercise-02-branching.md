@@ -10,7 +10,7 @@ See [Practice Guide: Step 2](../PRACTICE_GUIDE.md#2-create-a-branch) for a refre
 
 ```bash
 git checkout main
-git pull origin main
+git pull
 ```
 
 ### 2. Create and switch to a new branch

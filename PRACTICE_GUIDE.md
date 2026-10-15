@@ -59,13 +59,13 @@ Always branch from the latest `main`:
 
 ```bash
 git checkout main
-git pull origin main
+git pull
 git checkout -b yourname/your-change
 ```
 
 > 💡 **What these commands do:**
 > - `git checkout main`: Switches your working copy to the `main` branch. This ensures you are branching off the correct base.
-> - `git pull origin main`: Fetches the latest changes from the remote (`origin`) repo and merges them into your local `main`. This keeps you in sync with any work other club members have already merged.
+> - `git pull`: Fetches the latest changes from GitHub and merges them into your local `main`. This keeps you in sync with any work other club members have already merged.
 > - `git checkout -b yourname/your-change`: Creates a new branch and immediately switches to it. The `-b` flag means "create". Naming the branch with your name (e.g. `peter/update-readme`) makes it easy to identify who owns it.
 
 ### 3. Make Changes
@@ -84,6 +84,14 @@ git commit -m "docs: describe your change"
 > 💡 **What these commands do:**
 > - `git add <file>`: Stages the specified file, marking it to be included in the next commit. You are telling Git "I want to save this change." Replace `<file>` with the actual file path (e.g. `sandbox/README.md`).
 > - `git commit -m "..."`: Records a snapshot of the staged changes in your local Git history with a message describing what you did. Good commit messages make it easy for other students (and future you) to understand the history at a glance.
+
+**Staged the wrong file?** Unstage it before you commit:
+
+```bash
+git restore --staged <file>
+```
+
+This only removes the file from the staging area. Your edits to the file are kept, so nothing is lost. Run `git status` to confirm it's back under "Changes not staged for commit."
 
 ### 5. Push Your Branch
 
@@ -107,6 +115,8 @@ Go to the repository on GitHub and open a Pull Request from your branch to `main
 - Once approved, merge and delete your branch.
 
 > 💡 **Why:** Reviews give you a second set of eyes on your changes, and they're a friendly way to learn from each other. Deleting the branch after merging keeps the repository tidy and signals the work is complete.
+>
+> ⚠️ **Class projects:** Never delete a branch in a class project repo. Your instructor may use it for grading.
 
 ### 8. Pull the Latest Main
 
@@ -114,12 +124,12 @@ Keep your local `main` up to date after a merge:
 
 ```bash
 git checkout main
-git pull origin main
+git pull
 ```
 
 > 💡 **What these commands do:**
 > - `git checkout main`: Switches back to your local `main` branch.
-> - `git pull origin main`: Downloads and merges the newly merged changes (including your PR) from the remote into your local `main`, so you are ready to branch off again for the next piece of work.
+> - `git pull`: Downloads and merges the newly merged changes (including your PR) from the remote into your local `main`, so you are ready to branch off again for the next piece of work.
 
 ## Exercises
 

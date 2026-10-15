@@ -33,11 +33,13 @@ Once approved:
 2. Click **"Confirm merge"**.
 3. Click **"Delete branch"** to clean up.
 
+> ⚠️ **Merrimack Class projects:** Never delete a branch in a class project repo. The CS faculty use your branches for grading. Deleting branches is fine here in the playground.
+
 ### 5. Update your local `main`
 
 ```bash
 git checkout main
-git pull origin main
+git pull
 ```
 
 ## What You Learned
