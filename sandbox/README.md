@@ -16,3 +16,5 @@ Add a row to the table below each time you use this sandbox:
 | Name | Date | What I practiced |
 |------|------|-----------------|
 | Peter Hajj | 2026-10-12 | First edit and commit |
+
+| Mia Jimenez | 2026-10-15 | Copy repository to VS |

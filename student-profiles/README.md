@@ -29,3 +29,5 @@ Only your name or GitHub handle is needed. Everything else is optional, so share
 Add your link at the bottom of the list, so profiles stay in the order they were added:
 
 <!-- Example: - [Peter Hajj](peter.md) -->
+
+[ Mia Jimenez ](https://github.com/jimenezme637)
