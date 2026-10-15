@@ -27,6 +27,16 @@ git add .
 
 > 💡 **What this command does:** The `.` means "the current folder," so this stages every changed or new file in the folder you're in and all the folders inside it. Run `git status` first so you don't stage a file you didn't mean to.
 
+### Oops, staged the wrong file?
+
+Unstage it with:
+
+```bash
+git restore --staged <file>
+```
+
+For example, `git restore --staged sandbox/README.md`. This takes the file out of the staging area but keeps your edits, so nothing is lost. Run `git status` again to check.
+
 ### 3. Write a commit message
 
 ```bash
@@ -48,6 +58,7 @@ Open the repository on GitHub. You should see a banner offering to open a Pull R
 ## What You Learned
 
 - The staging area and `git add`
+- How to unstage a file with `git restore --staged`
 - How to write a clear commit message
 - How to push a branch to the remote
 
